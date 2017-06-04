@@ -33,6 +33,20 @@ body {
   width: 100%;
 }
 
+.fullscreen {
+  max-width: none;
+  width: 100%;
+  background:none;
+  border:0;
+  line-height:1;
+  color:white;
+  text-align: center;
+  outline:0;
+  padding: 0;
+  cursor:pointer;
+  max-width:50px;
+}
+
 .player:-webkit-full-screen {
   max-width: none;
   width: 100%;
